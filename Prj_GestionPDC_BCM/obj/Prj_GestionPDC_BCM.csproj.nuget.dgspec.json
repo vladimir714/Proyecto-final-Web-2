@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladi\\source\\repos\\Sln_Bladimir_Cabezas_S11\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj": {}
+    "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladi\\source\\repos\\Sln_Bladimir_Cabezas_S11\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj": {
+    "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\Sln_Bladimir_Cabezas_S11\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj",
         "projectName": "Prj_GestionPDC_BCM",
-        "projectPath": "C:\\Users\\vladi\\source\\repos\\Sln_Bladimir_Cabezas_S11\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj",
+        "projectPath": "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\source\\repos\\Sln_Bladimir_Cabezas_S11\\Prj_GestionPDC_BCM\\obj\\",
+        "outputPath": "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
