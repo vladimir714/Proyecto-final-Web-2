@@ -1193,3 +1193,8 @@ C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\ne
 C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Edit.cshtml.g.cs
 C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Index.cshtml.g.cs
 >>>>>>> 0a06053a625f51df30e4ee9363b3fc4131fe4f33
+C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Create.cshtml.g.cs
+C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Delete.cshtml.g.cs
+C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Details.cshtml.g.cs
+C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Edit.cshtml.g.cs
+C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Index.cshtml.g.cs
