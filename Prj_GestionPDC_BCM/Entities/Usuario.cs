@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace Prj_GestionPDC_BCM.Entities
 {
@@ -11,14 +10,11 @@ namespace Prj_GestionPDC_BCM.Entities
             RolUsuario = new HashSet<RolUsuario>();
         }
 
-      
         public int Id { get; set; }
-
-      
+        public string Nombre { get; set; }
         public string Usuario1 { get; set; }
         public string Password { get; set; }
         public string Identificacion { get; set; }
-        public string Nombre { get; set; }
         public string Apellido { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }

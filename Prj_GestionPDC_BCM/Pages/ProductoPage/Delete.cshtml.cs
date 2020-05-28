@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Prj_GestionPDC_BCM.Data;
 using Prj_GestionPDC_BCM.Entities;
 
-namespace Prj_GestionPDC_BCM.Pages.Registro
+namespace Prj_GestionPDC_BCM.Pages.ProductoPage
 {
     public class DeleteModel : PageModel
     {
@@ -20,7 +20,7 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
         }
 
         [BindProperty]
-        public Usuario Usuario { get; set; }
+        public Producto Producto { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -29,9 +29,9 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
                 return NotFound();
             }
 
-            Usuario = await _context.Usuario.FirstOrDefaultAsync(m => m.Id == id);
+            Producto = await _context.Producto.FirstOrDefaultAsync(m => m.Id == id);
 
-            if (Usuario == null)
+            if (Producto == null)
             {
                 return NotFound();
             }
@@ -45,11 +45,11 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
                 return NotFound();
             }
 
-            Usuario = await _context.Usuario.FindAsync(id);
+            Producto = await _context.Producto.FindAsync(id);
 
-            if (Usuario != null)
+            if (Producto != null)
             {
-                _context.Usuario.Remove(Usuario);
+                _context.Producto.Remove(Producto);
                 await _context.SaveChangesAsync();
             }
 

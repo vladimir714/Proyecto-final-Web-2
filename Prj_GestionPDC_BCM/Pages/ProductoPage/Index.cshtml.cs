@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Prj_GestionPDC_BCM.Data;
 using Prj_GestionPDC_BCM.Entities;
 
-namespace Prj_GestionPDC_BCM.Pages.Registro
+namespace Prj_GestionPDC_BCM.Pages.ProductoPage
 {
     public class IndexModel : PageModel
     {
@@ -19,11 +19,11 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
             _context = context;
         }
 
-        public IList<Usuario> Usuario { get;set; }
+        public IList<Producto> Producto { get;set; }
 
         public async Task OnGetAsync()
         {
-            Usuario = await _context.Usuario.ToListAsync();
+            Producto = await _context.Producto.ToListAsync();
         }
     }
 }

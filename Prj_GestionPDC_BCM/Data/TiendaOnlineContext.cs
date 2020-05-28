@@ -17,11 +17,11 @@ namespace Prj_GestionPDC_BCM.Data
         }
 
         public virtual DbSet<PermisosRol> PermisosRol { get; set; }
+        public virtual DbSet<Producto> Producto { get; set; }
         public virtual DbSet<Rol> Rol { get; set; }
         public virtual DbSet<RolUsuario> RolUsuario { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
 
-       
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -41,6 +41,28 @@ namespace Prj_GestionPDC_BCM.Data
                     .HasForeignKey(d => d.RolId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Permisos_Rol_Rol");
+            });
+
+            modelBuilder.Entity<Producto>(entity =>
+            {
+                entity.Property(e => e.Codigo)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Descripcion)
+                    .IsRequired()
+                    .HasMaxLength(600)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Imagen)
+                    .IsRequired()
+                    .HasColumnType("image");
+
+                entity.Property(e => e.Nombre)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .IsUnicode(false);
             });
 
             modelBuilder.Entity<Rol>(entity =>

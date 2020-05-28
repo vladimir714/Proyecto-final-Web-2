@@ -1011,3 +1011,8 @@ C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\ne
 C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Registro\Details.cshtml.g.cs
 C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Registro\Edit.cshtml.g.cs
 C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Registro\Index.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Create.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Delete.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Details.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Edit.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Index.cshtml.g.cs
