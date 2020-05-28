@@ -1198,3 +1198,8 @@ C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Details.cshtml.g.cs
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Edit.cshtml.g.cs
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Index.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Rolpage\Create.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Rolpage\Delete.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Rolpage\Details.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Rolpage\Edit.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Rolpage\Index.cshtml.g.cs
