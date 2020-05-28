@@ -12,6 +12,8 @@ namespace Prj_GestionPDC_BCM.Entities
 
         public int Id { get; set; }
         public string Nombre { get; set; }
+
+        
         public string Usuario1 { get; set; }
         public string Password { get; set; }
         public string Identificacion { get; set; }
