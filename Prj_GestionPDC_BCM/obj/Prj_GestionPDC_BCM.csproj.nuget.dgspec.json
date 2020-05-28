@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj": {}
+    "C:\\trabajos universidad\\programacion web\\entrega  final joven\\Proyecto-final-Web-2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj": {
+    "C:\\trabajos universidad\\programacion web\\entrega  final joven\\Proyecto-final-Web-2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj",
+        "projectUniqueName": "C:\\trabajos universidad\\programacion web\\entrega  final joven\\Proyecto-final-Web-2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj",
         "projectName": "Prj_GestionPDC_BCM",
-        "projectPath": "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj",
-        "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\source\\repos\\Proyecto final Web 2\\Prj_GestionPDC_BCM\\obj\\",
+        "projectPath": "C:\\trabajos universidad\\programacion web\\entrega  final joven\\Proyecto-final-Web-2\\Prj_GestionPDC_BCM\\Prj_GestionPDC_BCM.csproj",
+        "packagesPath": "C:\\Users\\STWEN\\.nuget\\packages\\",
+        "outputPath": "C:\\trabajos universidad\\programacion web\\entrega  final joven\\Proyecto-final-Web-2\\Prj_GestionPDC_BCM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\STWEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

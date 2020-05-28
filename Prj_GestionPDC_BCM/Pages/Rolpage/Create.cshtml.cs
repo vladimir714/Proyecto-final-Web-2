@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Prj_GestionPDC_BCM.Data;
 using Prj_GestionPDC_BCM.Entities;
 
-namespace Prj_GestionPDC_BCM.Pages
+namespace Prj_GestionPDC_BCM.Pages.Rolpage
 {
     public class CreateModel : PageModel
     {
@@ -21,12 +21,12 @@ namespace Prj_GestionPDC_BCM.Pages
 
         public IActionResult OnGet()
         {
+        ViewData["RolId"] = new SelectList(_context.Rol, "Id", "Nombre");
+        ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Apellido");
             return Page();
         }
 
         [BindProperty]
-        public Usuario Usuario { get; set; }
-
         public RolUsuario RolUsuario { get; set; }
 
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
@@ -36,14 +36,12 @@ namespace Prj_GestionPDC_BCM.Pages
             if (!ModelState.IsValid)
             {
                 return Page();
-
             }
 
-
-            _context.Usuario.Add(Usuario);           
+            _context.RolUsuario.Add(RolUsuario);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("../Rolpage/Create");
+            return RedirectToPage("./Index");
         }
     }
 }

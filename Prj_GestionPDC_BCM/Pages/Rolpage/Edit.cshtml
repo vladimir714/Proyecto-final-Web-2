@@ -1,0 +1,40 @@
+﻿@page
+@model Prj_GestionPDC_BCM.Pages.Rolpage.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>RolUsuario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="RolUsuario.Id" />
+            <div class="form-group">
+                <label asp-for="RolUsuario.RolId" class="control-label"></label>
+                <select asp-for="RolUsuario.RolId" class="form-control" asp-items="ViewBag.RolId"></select>
+                <span asp-validation-for="RolUsuario.RolId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RolUsuario.UsuarioId" class="control-label"></label>
+                <select asp-for="RolUsuario.UsuarioId" class="form-control" asp-items="ViewBag.UsuarioId"></select>
+                <span asp-validation-for="RolUsuario.UsuarioId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
