@@ -1011,6 +1011,7 @@ C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\ne
 C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Registro\Details.cshtml.g.cs
 C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Registro\Edit.cshtml.g.cs
 C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Registro\Index.cshtml.g.cs
+<<<<<<< HEAD
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\bin\Debug\netcoreapp3.1\appsettings.json
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -1185,3 +1186,10 @@ C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Rolpage\Details.cshtml.g.cs
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Rolpage\Edit.cshtml.g.cs
 C:\trabajos universidad\programacion web\entrega  final joven\Proyecto-final-Web-2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\Rolpage\Index.cshtml.g.cs
+=======
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Create.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Delete.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Details.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Edit.cshtml.g.cs
+C:\Users\vladi\source\repos\Proyecto final Web 2\Prj_GestionPDC_BCM\obj\Debug\netcoreapp3.1\Razor\Pages\ProductoPage\Index.cshtml.g.cs
+>>>>>>> 0a06053a625f51df30e4ee9363b3fc4131fe4f33

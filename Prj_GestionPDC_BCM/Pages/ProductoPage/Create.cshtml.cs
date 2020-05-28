@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Prj_GestionPDC_BCM.Data;
 using Prj_GestionPDC_BCM.Entities;
 
-namespace Prj_GestionPDC_BCM.Pages.Registro
+namespace Prj_GestionPDC_BCM.Pages.ProductoPage
 {
     public class CreateModel : PageModel
     {
@@ -25,9 +25,7 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
         }
 
         [BindProperty]
-        public Usuario Usuario { get; set; }
-
-        public RolUsuario RolUsuario { get; set; }
+        public Producto Producto { get; set; }
 
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://aka.ms/RazorPagesCRUD.
@@ -36,14 +34,12 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
             if (!ModelState.IsValid)
             {
                 return Page();
-
             }
 
-
-            _context.Usuario.Add(Usuario);           
+            _context.Producto.Add(Producto);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("../Rolpage/Create");
+            return RedirectToPage("./Index");
         }
     }
 }

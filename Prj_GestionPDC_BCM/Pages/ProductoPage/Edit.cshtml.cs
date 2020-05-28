@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Prj_GestionPDC_BCM.Data;
 using Prj_GestionPDC_BCM.Entities;
 
-namespace Prj_GestionPDC_BCM.Pages.Registro
+namespace Prj_GestionPDC_BCM.Pages.ProductoPage
 {
     public class EditModel : PageModel
     {
@@ -21,7 +21,7 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
         }
 
         [BindProperty]
-        public Usuario Usuario { get; set; }
+        public Producto Producto { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -30,9 +30,9 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
                 return NotFound();
             }
 
-            Usuario = await _context.Usuario.FirstOrDefaultAsync(m => m.Id == id);
+            Producto = await _context.Producto.FirstOrDefaultAsync(m => m.Id == id);
 
-            if (Usuario == null)
+            if (Producto == null)
             {
                 return NotFound();
             }
@@ -48,7 +48,7 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
                 return Page();
             }
 
-            _context.Attach(Usuario).State = EntityState.Modified;
+            _context.Attach(Producto).State = EntityState.Modified;
 
             try
             {
@@ -56,7 +56,7 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!UsuarioExists(Usuario.Id))
+                if (!ProductoExists(Producto.Id))
                 {
                     return NotFound();
                 }
@@ -69,9 +69,9 @@ namespace Prj_GestionPDC_BCM.Pages.Registro
             return RedirectToPage("./Index");
         }
 
-        private bool UsuarioExists(int id)
+        private bool ProductoExists(int id)
         {
-            return _context.Usuario.Any(e => e.Id == id);
+            return _context.Producto.Any(e => e.Id == id);
         }
     }
 }
