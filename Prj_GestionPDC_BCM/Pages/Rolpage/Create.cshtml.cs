@@ -21,9 +21,14 @@ namespace Prj_GestionPDC_BCM.Pages.Rolpage
 
         public IActionResult OnGet()
         {
+<<<<<<< HEAD
             var lstpais = _context.Usuario.Where(c => c.Nombre.Equals("123"));
             ViewData["RolId"] = new SelectList(lstpais, "Id", "Nombre");
         ViewData["UsuarioId"] = new SelectList(_context.Usuario, "Id", "Apellido");
+=======
+        ViewData["Rol"] = new SelectList(_context.Rol, "Id", "Nombre");
+        ViewData["Usuario"] = new SelectList(_context.Usuario, "Id", "Usuario ");
+>>>>>>> bf0eb6342c63645b1cf9e308b100505fa87d6e56
             return Page();
         }
 
